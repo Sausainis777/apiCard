@@ -1,0 +1,22 @@
+{
+  "name": "apicard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "esbuild src/index.js --bundle --outfile=dist/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.3",
+    "eslint": "^8.50.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier-eslint": "^15.0.1"
+  }
+}
